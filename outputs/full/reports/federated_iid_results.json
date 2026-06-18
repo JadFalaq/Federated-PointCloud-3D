@@ -1,0 +1,40 @@
+{
+  "experiment": "feastnet_full",
+  "setup": "federated_iid",
+  "test_metrics": {
+    "accuracy": 0.5390655994415283,
+    "macro_class_accuracy": 0.15944774658419192,
+    "num_examples": 7513.0,
+    "loss": 1.8226923948793743
+  },
+  "num_parameters": 443290,
+  "history": [
+    {
+      "round": 1.0,
+      "client_loss": 2.445936765367005,
+      "val_loss": 3.7073400087875736,
+      "val_accuracy": 0.15187008678913116,
+      "val_macro_class_accuracy": 0.04880044765770435
+    },
+    {
+      "round": 2.0,
+      "client_loss": 2.1485106250115167,
+      "val_loss": 2.470175358247268,
+      "val_accuracy": 0.4999334514141083,
+      "val_macro_class_accuracy": 0.12040167793631554
+    },
+    {
+      "round": 3.0,
+      "client_loss": 1.8861567309031446,
+      "val_loss": 1.8205324718856342,
+      "val_accuracy": 0.5345401167869568,
+      "val_macro_class_accuracy": 0.15824358139187097
+    }
+  ],
+  "clients": [
+    "client_1_iid",
+    "client_2_iid",
+    "client_3_iid",
+    "client_4_iid"
+  ]
+}

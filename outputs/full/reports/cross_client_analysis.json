@@ -1,0 +1,120 @@
+{
+    "per_client": [
+        {
+            "client": "client_0_Mobilier",
+            "present_classes": 8,
+            "absent_classes": 42,
+            "absent_class_names": [
+                "car",
+                "airplane",
+                "laptop",
+                "bottle",
+                "bowl"
+            ],
+            "accuracy_on_absent_classes": 0.3842,
+            "macro_class_accuracy": 0.3541,
+            "num_examples": 1260
+        },
+        {
+            "client": "client_1_Transport",
+            "present_classes": 8,
+            "absent_classes": 42,
+            "absent_class_names": [
+                "table",
+                "chair",
+                "laptop",
+                "bottle",
+                "bowl"
+            ],
+            "accuracy_on_absent_classes": 0.3915,
+            "macro_class_accuracy": 0.362,
+            "num_examples": 1260
+        },
+        {
+            "client": "client_2_Technologie",
+            "present_classes": 9,
+            "absent_classes": 41,
+            "absent_class_names": [
+                "table",
+                "chair",
+                "car",
+                "bottle",
+                "bowl"
+            ],
+            "accuracy_on_absent_classes": 0.3705,
+            "macro_class_accuracy": 0.3392,
+            "num_examples": 1230
+        },
+        {
+            "client": "client_3_Domestique",
+            "present_classes": 25,
+            "absent_classes": 25,
+            "absent_class_names": [
+                "table",
+                "chair",
+                "car",
+                "airplane",
+                "laptop"
+            ],
+            "accuracy_on_absent_classes": 0.4008,
+            "macro_class_accuracy": 0.3854,
+            "num_examples": 750
+        }
+    ],
+    "summary": {
+        "mean_accuracy_on_absent_classes": 0.38675,
+        "clients_evaluated": 4
+    },
+    "index_to_label": {
+        "0": "class_0",
+        "1": "class_1",
+        "2": "class_2",
+        "3": "class_3",
+        "4": "class_4",
+        "5": "class_5",
+        "6": "class_6",
+        "7": "class_7",
+        "8": "class_8",
+        "9": "class_9",
+        "10": "class_10",
+        "11": "class_11",
+        "12": "class_12",
+        "13": "class_13",
+        "14": "class_14",
+        "15": "class_15",
+        "16": "class_16",
+        "17": "class_17",
+        "18": "class_18",
+        "19": "class_19",
+        "20": "class_20",
+        "21": "class_21",
+        "22": "class_22",
+        "23": "class_23",
+        "24": "class_24",
+        "25": "class_25",
+        "26": "class_26",
+        "27": "class_27",
+        "28": "class_28",
+        "29": "class_29",
+        "30": "class_30",
+        "31": "class_31",
+        "32": "class_32",
+        "33": "class_33",
+        "34": "class_34",
+        "35": "class_35",
+        "36": "class_36",
+        "37": "class_37",
+        "38": "class_38",
+        "39": "class_39",
+        "40": "class_40",
+        "41": "class_41",
+        "42": "class_42",
+        "43": "class_43",
+        "44": "class_44",
+        "45": "class_45",
+        "46": "class_46",
+        "47": "class_47",
+        "48": "class_48",
+        "49": "class_49"
+    }
+}

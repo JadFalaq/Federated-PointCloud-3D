@@ -1,0 +1,33 @@
+{
+  "experiment": "feastnet_ultra_quick_cpu",
+  "setup": "federated_non_iid",
+  "test_metrics": {
+    "accuracy": 0.019999999552965164,
+    "macro_class_accuracy": 0.02,
+    "num_examples": 50.0,
+    "loss": 3.9132879257202147
+  },
+  "num_parameters": 40668,
+  "history": [
+    {
+      "round": 1.0,
+      "client_loss": 3.8311842669140206,
+      "val_loss": 3.9131652450561525,
+      "val_accuracy": 0.019999999552965164,
+      "val_macro_class_accuracy": 0.02
+    },
+    {
+      "round": 2.0,
+      "client_loss": 3.874042320793325,
+      "val_loss": 3.913656167984009,
+      "val_accuracy": 0.019999999552965164,
+      "val_macro_class_accuracy": 0.02
+    }
+  ],
+  "clients": [
+    "client_1_furniture",
+    "client_2_transport",
+    "client_3_technology",
+    "client_4_domestic"
+  ]
+}

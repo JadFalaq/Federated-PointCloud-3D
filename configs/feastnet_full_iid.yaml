@@ -1,0 +1,62 @@
+# Même config que feastnet_base.yaml mais fédération horizontale IID (C2).
+# Usage: python scripts/train_federated.py --config configs/feastnet_full_iid.yaml
+
+seed: 42
+
+paths:
+  metadata_csv: labeled_dataset.csv
+  pointcloud_root: ShapeNet_pcs
+  processed_root: data/processed
+  split_root: data/splits/full
+  output_root: outputs/full
+
+experiment:
+  name: feastnet_full
+  task: classification
+  num_classes: 50
+
+model:
+  architecture: feastnet
+  in_channels: 6
+  hidden_channels: [64, 128, 256]
+  heads: [4, 4, 8]
+  k: 16
+  dropout: 0.3
+  use_rgb: true
+
+training:
+  epochs: 5
+  batch_size: 4
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  num_workers: 0
+  device: cuda
+  early_stopping_patience: 10
+
+split:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+sampling:
+  num_points: 1024
+  normalize: true
+  augment_train: true
+
+federated:
+  rounds: 3
+  local_epochs: 1
+  clients: 4
+  iid_fraction: 1.0
+  scenario: iid
+
+knowledge_distillation:
+  alpha: 0.5
+  temperature: 4.0
+  sweep_epochs: 10
+  student_hidden_channels: [32, 64, 64]
+  student_heads: [2, 2, 4]
+
+vfl:
+  embed_dim: 128
+  epochs: 50

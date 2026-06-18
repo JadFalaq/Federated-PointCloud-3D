@@ -1,0 +1,32 @@
+{
+  "experiment": "feastnet_ultra_quick_cpu",
+  "setup": "centralized",
+  "summary": {
+    "best_epoch": 1.0,
+    "best_val_accuracy": 0.019999999552965164,
+    "num_parameters": 40668.0
+  },
+  "test_metrics": {
+    "accuracy": 0.019999999552965164,
+    "macro_class_accuracy": 0.02,
+    "num_examples": 50.0,
+    "loss": 3.912183666229248
+  },
+  "num_parameters": 40668,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 4.1499982261657715,
+      "val_loss": 3.9119748878479004,
+      "val_accuracy": 0.019999999552965164,
+      "val_macro_class_accuracy": 0.02
+    },
+    {
+      "epoch": 2,
+      "train_loss": 3.8453896713256834,
+      "val_loss": 3.912944450378418,
+      "val_accuracy": 0.019999999552965164,
+      "val_macro_class_accuracy": 0.02
+    }
+  ]
+}

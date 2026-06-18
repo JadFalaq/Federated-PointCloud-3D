@@ -1,0 +1,158 @@
+{
+    "experiment": "feastnet_full",
+    "setup": "federated_non_iid",
+    "test_metrics": {
+        "accuracy": 0.6421,
+        "macro_class_accuracy": 0.5612,
+        "num_examples": 1500.0
+    },
+    "num_parameters": 883250,
+    "history": [
+        {
+            "round": 1.0,
+            "client_loss": 4.162162858117863,
+            "val_loss": 4.554133193546345,
+            "val_accuracy": 0.1746720946122909,
+            "val_macro_class_accuracy": 0.08233878867879443
+        },
+        {
+            "round": 2.0,
+            "client_loss": 3.754069822625953,
+            "val_loss": 4.150837331226077,
+            "val_accuracy": 0.24561484419014643,
+            "val_macro_class_accuracy": 0.16927015236252513
+        },
+        {
+            "round": 3.0,
+            "client_loss": 3.4159158117293513,
+            "val_loss": 3.832629510729604,
+            "val_accuracy": 0.27943520810941735,
+            "val_macro_class_accuracy": 0.2031097066760482
+        },
+        {
+            "round": 4.0,
+            "client_loss": 2.935537995851718,
+            "val_loss": 3.495608519709139,
+            "val_accuracy": 0.3707908420310143,
+            "val_macro_class_accuracy": 0.28318669440044736
+        },
+        {
+            "round": 5.0,
+            "client_loss": 2.804749668512573,
+            "val_loss": 3.173678987486138,
+            "val_accuracy": 0.3656618265211803,
+            "val_macro_class_accuracy": 0.27859625193690546
+        },
+        {
+            "round": 6.0,
+            "client_loss": 2.3363351315361367,
+            "val_loss": 2.913728419075756,
+            "val_accuracy": 0.3983821056858615,
+            "val_macro_class_accuracy": 0.32186285474622606
+        },
+        {
+            "round": 7.0,
+            "client_loss": 2.1932312278979564,
+            "val_loss": 2.722580221589614,
+            "val_accuracy": 0.4650379704582078,
+            "val_macro_class_accuracy": 0.36331670533574795
+        },
+        {
+            "round": 8.0,
+            "client_loss": 2.0245095132442867,
+            "val_loss": 2.435231222678192,
+            "val_accuracy": 0.4864763338812603,
+            "val_macro_class_accuracy": 0.38536437726561196
+        },
+        {
+            "round": 9.0,
+            "client_loss": 1.8275899562918205,
+            "val_loss": 2.2905534364011477,
+            "val_accuracy": 0.5073126216095221,
+            "val_macro_class_accuracy": 0.41653595829073553
+        },
+        {
+            "round": 10.0,
+            "client_loss": 1.6221851708217687,
+            "val_loss": 2.090361440257429,
+            "val_accuracy": 0.5276171125959875,
+            "val_macro_class_accuracy": 0.4444154053203098
+        },
+        {
+            "round": 11.0,
+            "client_loss": 1.5015201898620714,
+            "val_loss": 1.9374219964353834,
+            "val_accuracy": 0.5355547954783157,
+            "val_macro_class_accuracy": 0.4602184089622858
+        },
+        {
+            "round": 12.0,
+            "client_loss": 1.3624966258904636,
+            "val_loss": 1.8537784817886853,
+            "val_accuracy": 0.5374904127463388,
+            "val_macro_class_accuracy": 0.47962075600058207
+        },
+        {
+            "round": 13.0,
+            "client_loss": 1.2475607980104044,
+            "val_loss": 1.7208758190966011,
+            "val_accuracy": 0.5652721434491219,
+            "val_macro_class_accuracy": 0.4981370377971522
+        },
+        {
+            "round": 14.0,
+            "client_loss": 1.2223306673429208,
+            "val_loss": 1.6112575717208226,
+            "val_accuracy": 0.5654081685471815,
+            "val_macro_class_accuracy": 0.48300909059773
+        },
+        {
+            "round": 15.0,
+            "client_loss": 1.111941635046952,
+            "val_loss": 1.5332718047714453,
+            "val_accuracy": 0.6001012546494284,
+            "val_macro_class_accuracy": 0.5198160115308882
+        },
+        {
+            "round": 16.0,
+            "client_loss": 0.9837627098307407,
+            "val_loss": 1.3944987414520014,
+            "val_accuracy": 0.5918583735101433,
+            "val_macro_class_accuracy": 0.49682043304057616
+        },
+        {
+            "round": 17.0,
+            "client_loss": 0.9965984604918848,
+            "val_loss": 1.3427330614899802,
+            "val_accuracy": 0.5891280628988158,
+            "val_macro_class_accuracy": 0.50885036585893
+        },
+        {
+            "round": 18.0,
+            "client_loss": 0.9080417192036606,
+            "val_loss": 1.2330645759773575,
+            "val_accuracy": 0.6031447545302827,
+            "val_macro_class_accuracy": 0.5188148749464807
+        },
+        {
+            "round": 19.0,
+            "client_loss": 0.8813039606267347,
+            "val_loss": 1.1958213166257887,
+            "val_accuracy": 0.6197552292803905,
+            "val_macro_class_accuracy": 0.5445960076854619
+        },
+        {
+            "round": 20.0,
+            "client_loss": 0.8262384363165556,
+            "val_loss": 1.1216135800016347,
+            "val_accuracy": 0.609956191110751,
+            "val_macro_class_accuracy": 0.5175477269574661
+        }
+    ],
+    "clients": [
+        "client_0_Mobilier",
+        "client_1_Transport",
+        "client_2_Technologie",
+        "client_3_Domestique"
+    ]
+}

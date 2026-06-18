@@ -1,0 +1,54 @@
+seed: 42
+
+paths:
+  metadata_csv: data/processed/subset_metadata_ultra_quick.csv
+  pointcloud_root: data/raw/pointclouds
+  processed_root: data/processed
+  split_root: data/splits/ultra_quick_cpu
+  output_root: outputs/ultra_quick_cpu
+
+experiment:
+  name: feastnet_ultra_quick_cpu
+  task: classification
+  num_classes: 50
+
+model:
+  architecture: feastnet
+  in_channels: 6
+  hidden_channels: [12, 24, 48]
+  heads: [1, 1, 2]
+  k: 6
+  dropout: 0.15
+  use_rgb: true
+
+training:
+  epochs: 2
+  batch_size: 16
+  learning_rate: 0.002
+  weight_decay: 0.00005
+  num_workers: 0
+  device: cpu
+  early_stopping_patience: 2
+
+split:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+sampling:
+  num_points: 64
+  normalize: true
+  augment_train: true
+
+federated:
+  rounds: 2
+  local_epochs: 1
+  clients: 4
+  iid_fraction: 1.0
+  scenario: non_iid
+
+knowledge_distillation:
+  alpha: 0.6
+  temperature: 2.5
+  student_hidden_channels: [8, 12, 24]
+  student_heads: [1, 1, 1]

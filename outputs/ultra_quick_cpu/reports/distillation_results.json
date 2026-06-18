@@ -1,0 +1,30 @@
+{
+  "experiment": "feastnet_ultra_quick_cpu",
+  "setup": "distillation",
+  "teacher_checkpoint": "C:\\Users\\falaq\\OneDrive\\Desktop\\Jad Falaq\\PROJET_FL\\outputs\\ultra_quick_cpu\\checkpoints\\feastnet_centralized_best.pt",
+  "student_num_parameters": 25987,
+  "test_metrics": {
+    "accuracy": 0.019999999552965164,
+    "macro_class_accuracy": 0.02,
+    "num_examples": 50.0,
+    "loss": 3.912596445083618
+  },
+  "history": [
+    {
+      "epoch": 1.0,
+      "train_loss": 1.6338629579544068,
+      "val_loss": 3.914705457687378,
+      "val_accuracy": 0.019999999552965164,
+      "val_macro_class_accuracy": 0.02
+    },
+    {
+      "epoch": 2.0,
+      "train_loss": 1.5609209489822389,
+      "val_loss": 3.9164548110961914,
+      "val_accuracy": 0.019999999552965164,
+      "val_macro_class_accuracy": 0.02
+    }
+  ],
+  "alpha": 0.6,
+  "temperature": 2.5
+}

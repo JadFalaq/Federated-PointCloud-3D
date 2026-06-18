@@ -1,0 +1,15 @@
+{
+  "experiment": "feastnet_ultra_quick_cpu",
+  "reports_found": [
+    "Centralized (C1)",
+    "Federated non-IID (C3)",
+    "Distillation (C4)"
+  ],
+  "reports_missing": [
+    "federated_iid_results.json",
+    "vfl_results.json"
+  ],
+  "comparison_csv": "C:\\Users\\falaq\\OneDrive\\Desktop\\Jad Falaq\\PROJET_FL\\outputs\\ultra_quick_cpu\\reports\\comparison_summary.csv",
+  "comparison_markdown": "C:\\Users\\falaq\\OneDrive\\Desktop\\Jad Falaq\\PROJET_FL\\outputs\\ultra_quick_cpu\\reports\\comparison_summary.md",
+  "convergence_overlay_png": "C:\\Users\\falaq\\OneDrive\\Desktop\\Jad Falaq\\PROJET_FL\\outputs\\ultra_quick_cpu\\figures\\comparison_convergence_overlay.png"
+}
