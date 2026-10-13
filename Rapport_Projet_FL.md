@@ -1,6 +1,6 @@
 # Classification de Nuages de Points 3D par GCN, Apprentissage Fédéré et Distillation de Connaissances
 
-**Auteurs :** [Noms des Étudiants]  
+**Auteurs :** Falaq Jad  
 **Date :** Juin 2026  
 **Cours :** Apprentissage Fédéré et Analyse de Données 3D  
 
